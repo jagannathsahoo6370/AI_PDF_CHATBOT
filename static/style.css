@@ -1,0 +1,254 @@
+/* ===========================
+   AI PDF Chatbot - Modern UI
+=========================== */
+
+/* Main App */
+.stApp {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f8fafc;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #111827;
+    border-right: 2px solid #334155;
+}
+
+/* Main Title */
+h1 {
+    color: #38bdf8 !important;
+    font-size: 3rem !important;
+    font-weight: 800 !important;
+}
+
+/* Subtitle */
+h4 {
+    color: #e2e8f0 !important;
+    font-weight: 400 !important;
+}
+
+/* Horizontal Line */
+hr {
+    border: 1px solid #334155;
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    background: linear-gradient(90deg, #2563eb, #06b6d4);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: scale(1.03);
+    background: linear-gradient(90deg, #1d4ed8, #0891b2);
+}
+
+/* Text Input */
+.stTextInput input {
+    background: #1e293b;
+    color: white;
+    border: 2px solid #38bdf8;
+    border-radius: 12px;
+}
+
+/* File Uploader */
+/* ============================= */
+/* File Uploader */
+/* ============================= */
+
+[data-testid="stFileUploader"]{
+    background:#1f2937 !important;
+    border:2px dashed #38bdf8 !important;
+    border-radius:15px !important;
+    padding:15px !important;
+}
+
+/* Upload Area */
+[data-testid="stFileUploaderDropzone"]{
+    background:#1f2937 !important;
+    border:none !important;
+}
+
+/* "Browse files" button */
+[data-testid="stFileUploader"] button{
+    background:#2563eb !important;
+    color:white !important;
+    border-radius:8px !important;
+    border:none !important;
+    font-weight:bold !important;
+}
+
+/* Upload text */
+[data-testid="stFileUploader"] span,
+[data-testid="stFileUploader"] small,
+[data-testid="stFileUploader"] p{
+    color:#f8fafc !important;
+}
+
+/* Uploaded filename */
+[data-testid="stFileUploaderFile"]{
+    background:#374151 !important;
+    color:white !important;
+    border-radius:10px !important;
+    padding:8px !important;
+}
+
+/* Remove white background inside uploader */
+[data-testid="stFileUploader"] section{
+    background:transparent !important;
+}
+
+/* Success */
+.stSuccess {
+    background: #064e3b;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+/* Warning */
+.stWarning {
+    border-radius: 12px;
+}
+
+/* Chat Messages */
+[data-testid="stChatMessage"] {
+    background: #1e293b;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #38bdf8;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+/* File uploader label */
+[data-testid="stFileUploader"] label,
+[data-testid="stFileUploader"] div,
+[data-testid="stFileUploader"] span,
+[data-testid="stFileUploader"] small {
+    color: #ffffff !important;
+}
+
+/* Sidebar text */
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #ffffff !important;
+}
+
+/* ============================= */
+/* Uploaded File Card */
+/* ============================= */
+
+/* Selected file container */
+[data-testid="stFileUploaderFile"]{
+    background: #334155 !important;
+    border: 1px solid #475569 !important;
+    border-radius: 12px !important;
+    color: #ffffff !important;
+}
+
+/* File name */
+[data-testid="stFileUploaderFile"] span{
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+/* File size */
+[data-testid="stFileUploaderFile"] small{
+    color: #cbd5e1 !important;
+}
+
+/* File icon */
+[data-testid="stFileUploaderFile"] svg{
+    color: #38bdf8 !important;
+}
+
+/* Remove (X) button */
+[data-testid="stFileUploaderFile"] button{
+    background: transparent !important;
+    color: #ef4444 !important;
+    border: none !important;
+}
+
+[data-testid="stFileUploaderFile"] button:hover{
+    background: rgba(239,68,68,0.15) !important;
+    border-radius: 50%;
+}
+
+/* Selected file card */
+[data-testid="stFileUploaderFile"]{
+    background-color: #1e293b !important;
+    border: 1px solid #38bdf8 !important;
+    border-radius: 12px !important;
+}
+
+/* Everything inside the selected file card */
+[data-testid="stFileUploaderFile"] *{
+    color: #ffffff !important;
+    background: transparent !important;
+}
+
+/* File icon */
+[data-testid="stFileUploaderFile"] svg{
+    fill: #38bdf8 !important;
+    color: #38bdf8 !important;
+}
+
+/* Remove (X) button */
+[data-testid="stFileUploaderFile"] button{
+    background: transparent !important;
+    color: #ef4444 !important;
+}
+
+/* ========================= */
+/* Selected PDF Chip */
+/* ========================= */
+
+/* Entire selected file chip */
+[data-testid="stFileUploader"] [data-testid="stFileChip"]{
+    background:#1e293b !important;
+    border:1px solid #38bdf8 !important;
+    border-radius:10px !important;
+}
+
+/* File name */
+[data-testid="stFileChipName"]{
+    color:#ffffff !important;
+    font-weight:600 !important;
+}
+
+/* File size */
+[data-testid="stFileUploader"] small{
+    color:#cbd5e1 !important;
+}
+
+/* PDF icon */
+[data-testid="stFileChip"] svg{
+    color:#38bdf8 !important;
+    fill:#38bdf8 !important;
+}
+
+/* Remove button */
+[data-testid="stFileChip"] button{
+    background:transparent !important;
+    color:#ef4444 !important;
+}
