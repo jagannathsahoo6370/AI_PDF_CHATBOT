@@ -20,11 +20,7 @@ Upload PDF documents and ask natural language questions to receive intelligent, 
 # 📸 Application Preview
 
 <p align="center">
-### APP Logo
-
-<img src="<<img width="1254" height="1254" alt="logo" src="https://github.com/user-attachments/assets/a37e94e6-e402-4197-a953-1399bfb80a84" />
->"width="100%">
-
+<img width="1254" height="1254" alt="logo" src="https://github.com/user-attachments/assets/a37e94e6-e402-4197-a953-1399bfb80a84" />
 </p>
 
 ---
@@ -197,7 +193,7 @@ streamlit run app.py
 
 ### Home Page
 
-<img src="<img width="1672" height="941" alt="App_Screenshot" src="https://github.com/user-attachments/assets/45d65919-7fd3-435b-80ed-50e9a9fd8173" />" width="100%">
+<img width="1672" height="941" alt="App_Screenshot" src="https://github.com/user-attachments/assets/45d65919-7fd3-435b-80ed-50e9a9fd8173" />
 
 ---
 
